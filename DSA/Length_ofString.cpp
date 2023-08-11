@@ -3,7 +3,7 @@ using namespace std;
 int lengthOfString(char arr[])
 {
         int counter = 0;
-        for(int i=0; arr[i] !=0; i++){
+        for(int i=0; arr[i] !='\0'; i++){
                 counter++;
         }
         cout <<counter<< endl;
